@@ -1,8 +1,8 @@
-const { createCanvas, loadImage, registerFont } = require('canvas');
-const path = require('path');
+import { createCanvas, loadImage, registerFont } from 'canvas'
+import path from 'path'
 
 // Daftarkan font Impact
-registerFont(path.join(__dirname, 'impact.ttf'), { family: 'Impact' });
+registerFont('./impact.ttf', { family: 'Impact' });
 
 /**
  * Generate meme image with auto-scaling text size.
@@ -54,4 +54,4 @@ async function generateMeme(imageInput, topText, bottomText) {
   return canvas.toBuffer('image/jpeg');
 }
 
-module.exports = generateMeme;
+export default generateMeme
