@@ -3,7 +3,7 @@
 Demo:
 https://isntlang-memegen.hf.space/generate
 
-<code>
+```js
 const axios = require('axios')
 const fs = require('fs')
 
@@ -21,5 +21,4 @@ const fs = require('fs')
     responseType: 'arraybuffer'
   })
   fs.writeFileSync('./output.png', data)
-})()
-</code>
+})()```
