@@ -1,7 +1,7 @@
 <h1>Meme Generator API</h1>
 
 Demo:
-https://isntlang-memegen.hf.space/generate
+https://isntlang-memegen.hf.space/
 
 ```js
 const axios = require('axios')
