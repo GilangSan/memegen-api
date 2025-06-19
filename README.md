@@ -21,4 +21,5 @@ const fs = require('fs')
     responseType: 'arraybuffer'
   })
   fs.writeFileSync('./output.png', data)
-})()```
+})()
+```
